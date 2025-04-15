@@ -10,7 +10,7 @@ from centergrasp.sapien.scenes import SceneImgRenderer
 from centergrasp.rgb.rgb_data import write_rgbd_data, get_rgbd_paths, check_exists
 
 
-def split_range_chunks(range_: range, num_chunks: int) -> list[range]:
+def split_range_chunks(range_: range, num_chunks: int): # -> list[range]:
     """Yield successive n-sized chunks from range."""
     step = len(range_) / num_chunks
     subranges = [range(round(step * i), round(step * (i + 1))) for i in range(num_chunks)]
