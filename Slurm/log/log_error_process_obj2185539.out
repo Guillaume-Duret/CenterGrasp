@@ -1,35 +1,0 @@
-Loading pytorch-gpu/py3/1.13.0
-  Loading requirement: cuda/11.2 nccl/2.9.6-1-cuda cudnn/8.1.1.33-cuda gcc/8.5.0
-    openmpi/4.1.1-cuda intel-mkl/2020.4 magma/2.5.4-cuda-oneapi-mkl sox/14.4.2
-    sparsehash/2.0.3 libjpeg-turbo/2.1.3 ffmpeg/N-94431
-Unloading cuda/11.2
-  Unloading dependent: pytorch-gpu/py3/1.13.0 magma/2.5.4-cuda-oneapi-mkl
-    openmpi/4.1.1-cuda cudnn/8.1.1.33-cuda nccl/2.9.6-1-cuda
-  Unloading useless requirement: ffmpeg/N-94431 libjpeg-turbo/2.1.3
-    sparsehash/2.0.3 sox/14.4.2 intel-mkl/2020.4 gcc/8.5.0
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 0/50000 [00:00<?, ?it/s]pybullet build time: Jan 29 2025 23:19:57
-/linkhome/rech/genkmw01/ubn15wo/.conda/envs/centergrasp_g_env/lib/python3.8/site-packages/numpy/lib/npyio.py:696: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
-  val = np.asanyarray(val)
-  0%|          | 1/50000 [00:07<107:20:06,  7.73s/it]  0%|          | 2/50000 [00:07<45:09:47,  3.25s/it] pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 3/50000 [00:09<37:33:10,  2.70s/it]pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 4/50000 [00:11<30:02:19,  2.16s/it]  0%|          | 5/50000 [00:11<19:59:30,  1.44s/it]  0%|          | 6/50000 [00:11<13:56:32,  1.00s/it]  0%|          | 7/50000 [00:11<10:08:36,  1.37it/s]  0%|          | 8/50000 [00:11<7:35:03,  1.83it/s]   0%|          | 9/50000 [00:12<5:59:45,  2.32it/s]pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 10/50000 [00:12<4:54:12,  2.83it/s]  0%|          | 11/50000 [00:12<5:12:26,  2.67it/s]  0%|          | 12/50000 [00:12<4:17:37,  3.23it/s]  0%|          | 13/50000 [00:12<3:27:54,  4.01it/s]  0%|          | 14/50000 [00:13<3:04:10,  4.52it/s]  0%|          | 15/50000 [00:13<2:38:12,  5.27it/s]  0%|          | 16/50000 [00:13<2:27:32,  5.65it/s]  0%|          | 17/50000 [00:13<2:17:02,  6.08it/s]  0%|          | 18/50000 [00:13<2:13:44,  6.23it/s]  0%|          | 19/50000 [00:13<2:14:09,  6.21it/s]  0%|          | 20/50000 [00:13<2:08:32,  6.48it/s]pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 21/50000 [00:15<8:03:15,  1.72it/s]pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 22/50000 [00:16<9:59:30,  1.39it/s]  0%|          | 23/50000 [00:16<7:37:47,  1.82it/s]  0%|          | 24/50000 [00:16<5:58:35,  2.32it/s]  0%|          | 25/50000 [00:17<4:51:27,  2.86it/s]  0%|          | 26/50000 [00:17<4:16:45,  3.24it/s]  0%|          | 27/50000 [00:17<3:37:07,  3.84it/s]  0%|          | 28/50000 [00:17<3:16:33,  4.24it/s]  0%|          | 29/50000 [00:17<3:01:58,  4.58it/s]  0%|          | 30/50000 [00:17<2:49:34,  4.91it/s]  0%|          | 31/50000 [00:18<2:42:48,  5.12it/s]  0%|          | 32/50000 [00:18<3:59:14,  3.48it/s]  0%|          | 33/50000 [00:18<3:35:14,  3.87it/s]  0%|          | 34/50000 [00:18<3:03:57,  4.53it/s]  0%|          | 35/50000 [00:19<2:56:37,  4.71it/s]  0%|          | 36/50000 [00:19<2:55:48,  4.74it/s]  0%|          | 37/50000 [00:19<3:51:12,  3.60it/s]  0%|          | 38/50000 [00:19<3:20:00,  4.16it/s]  0%|          | 39/50000 [00:20<2:53:47,  4.79it/s]pybullet build time: Jan 29 2025 23:19:57
-  0%|          | 40/50000 [00:20<3:04:12,  4.52it/s]  0%|          | 41/50000 [00:20<2:47:14,  4.98it/s]pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-pybullet build time: Jan 29 2025 23:19:57
-slurmstepd: error: *** JOB 2185539 ON r2i6n29 CANCELLED AT 2025-04-11T09:51:23 ***
