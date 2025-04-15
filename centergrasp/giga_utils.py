@@ -8,6 +8,7 @@ from centergrasp.cameras import look_at_x
 from centergrasp.configs import Directories
 from centergrasp.cameras import CameraConventions
 from centergrasp.mesh_utils import SceneObject, get_volume_from_mesh, get_mass_from_urdf
+from pathlib import Path
 
 # Giga camera params
 GIGA_CAM_WIDTH = 640
@@ -102,10 +103,10 @@ class MeshPathsLoader:
 
 
 class GigaScenesLoader:
-    PACKED_TRAIN_RAW = Directories.GIGA / "data_packed_train_raw"
-    PILE_TRAIN_RAW = Directories.GIGA / "data_pile_train_raw"
-    PACKED_TRAIN_PROC = Directories.GIGA / "data_packed_train_processed_dex_noise"
-    PILE_TRAIN_PROC = Directories.GIGA / "data_pile_train_processed_dex_noise"
+    PACKED_TRAIN_RAW = Path(Directories.GIGA) / "packed/40_no_data_packed_train_random_raw_4M"
+    PILE_TRAIN_RAW = Path(Directories.GIGA) / "pile/40_no_data_pile_train_random_raw_4M"
+    PACKED_TRAIN_PROC = Path(Directories.GIGA) / "packed/40_no_data_packed_train_random_4M_noise"
+    PILE_TRAIN_PROC = Path(Directories.GIGA) / "pile/40_no_data_pile_train_random_raw_4M_noise"
 
     def __init__(self) -> None:
         self.packed_scene_ids = [
