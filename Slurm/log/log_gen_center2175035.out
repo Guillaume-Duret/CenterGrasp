@@ -1,0 +1,5538 @@
+pynput not installed, cannot listen to esc key
+import libkdtree fail
+Using /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/ckpt_rgb/12c7ven5/epoch=99-step=624700.ckpt
+Using model class from: /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/centergrasp/rgb/centergrasp_net.py
+Using /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/ckpt_sgdf/9vkd9370/epoch=99-step=31300.ckpt
+invalid start state!! (collision)
+successfully sampled a new state with a perturbation of 0.6% joint limits.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.3333333333333333
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.4
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.2857142857142857
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.5454545454545454
+IK Failed! Distance 0.772238 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.6666666666666666
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.6666666666666666
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 1.0
+Current Declutter Rate: 0.7142857142857143
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9375
+Current Declutter Rate: 0.6818181818181818
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9444444444444444
+Current Declutter Rate: 0.68
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9090909090909091
+Current Declutter Rate: 0.7142857142857143
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9130434782608695
+Current Declutter Rate: 0.7
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9166666666666666
+Current Declutter Rate: 0.6666666666666666
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9285714285714286
+Current Declutter Rate: 0.7027027027027027
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9310344827586207
+Current Declutter Rate: 0.675
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9333333333333333
+Current Declutter Rate: 0.6363636363636364
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.078678 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9411764705882353
+Current Declutter Rate: 0.6666666666666666
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.875
+Current Declutter Rate: 0.6730769230769231
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8837209302325582
+Current Declutter Rate: 0.6909090909090909
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.875
+Current Declutter Rate: 0.7
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.060412 is greater than threshold 0.001000.
+RRT Failed. Approximate solution
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8823529411764706
+Current Declutter Rate: 0.6923076923076923
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8846153846153846
+Current Declutter Rate: 0.6764705882352942
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8867924528301887
+Current Declutter Rate: 0.6811594202898551
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.226740 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.374000 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8928571428571429
+Current Declutter Rate: 0.684931506849315
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8947368421052632
+Current Declutter Rate: 0.6891891891891891
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9016393442622951
+Current Declutter Rate: 0.7051282051282052
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9076923076923077
+Current Declutter Rate: 0.7195121951219512
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9130434782608695
+Current Declutter Rate: 0.7325581395348837
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9178082191780822
+Current Declutter Rate: 0.7444444444444445
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.059908 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.016745 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.013044 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9210526315789473
+Current Declutter Rate: 0.7368421052631579
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9240506329113924
+Current Declutter Rate: 0.7448979591836735
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9259259259259259
+Current Declutter Rate: 0.75
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Distance 1.292875 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.387841 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8953488372093024
+Current Declutter Rate: 0.7475728155339806
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9
+Current Declutter Rate: 0.7570093457943925
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9021739130434783
+Current Declutter Rate: 0.7614678899082569
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9052631578947369
+Current Declutter Rate: 0.7543859649122807
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9072164948453608
+Current Declutter Rate: 0.7521367521367521
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.91
+Current Declutter Rate: 0.7583333333333333
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9029126213592233
+Current Declutter Rate: 0.7622950819672131
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9065420560747663
+Current Declutter Rate: 0.7698412698412699
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9
+Current Declutter Rate: 0.7734375
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9035087719298246
+Current Declutter Rate: 0.7803030303030303
+IK Failed! Distance 0.871397 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8983050847457628
+Current Declutter Rate: 0.7851851851851852
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9016393442622951
+Current Declutter Rate: 0.7913669064748201
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9024390243902439
+Current Declutter Rate: 0.7928571428571428
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8976377952755905
+Current Declutter Rate: 0.7972027972027972
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8863636363636364
+Current Declutter Rate: 0.7959183673469388
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8897058823529411
+Current Declutter Rate: 0.8013245033112583
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8913043478260869
+Current Declutter Rate: 0.7987012987012987
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8928571428571429
+Current Declutter Rate: 0.7911392405063291
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8951048951048951
+Current Declutter Rate: 0.7901234567901234
+IK Failed! Distance 0.040429 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8986486486486487
+Current Declutter Rate: 0.7964071856287425
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9013157894736842
+Current Declutter Rate: 0.8011695906432749
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9025974025974026
+Current Declutter Rate: 0.8034682080924855
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9050632911392406
+Current Declutter Rate: 0.807909604519774
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.901840490797546
+Current Declutter Rate: 0.8121546961325967
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8994082840236687
+Current Declutter Rate: 0.8172043010752689
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9
+Current Declutter Rate: 0.8095238095238095
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.9
+Current Declutter Rate: 0.7927461139896373
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9022988505747126
+Current Declutter Rate: 0.7969543147208121
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9044943820224719
+Current Declutter Rate: 0.8009950248756219
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.9065934065934066
+Current Declutter Rate: 0.8048780487804879
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8835978835978836
+Current Declutter Rate: 0.8028846153846154
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8673469387755102
+Current Declutter Rate: 0.8018867924528302
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.87
+Current Declutter Rate: 0.8055555555555556
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8712871287128713
+Current Declutter Rate: 0.8
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8725490196078431
+Current Declutter Rate: 0.8018018018018018
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8743961352657005
+Current Declutter Rate: 0.8044444444444444
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8672985781990521
+Current Declutter Rate: 0.7991266375545851
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8663594470046083
+Current Declutter Rate: 0.8034188034188035
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.867579908675799
+Current Declutter Rate: 0.8050847457627118
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8693693693693694
+Current Declutter Rate: 0.8075313807531381
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8716814159292036
+Current Declutter Rate: 0.8106995884773662
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8589743589743589
+Current Declutter Rate: 0.8104838709677419
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8613445378151261
+Current Declutter Rate: 0.8134920634920635
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8619246861924686
+Current Declutter Rate: 0.8110236220472441
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8612244897959184
+Current Declutter Rate: 0.8115384615384615
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8645418326693227
+Current Declutter Rate: 0.8157894736842105
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.86328125
+Current Declutter Rate: 0.8185185185185185
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.861003861003861
+Current Declutter Rate: 0.8168498168498168
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 1.773488 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.849624060150376
+Current Declutter Rate: 0.8188405797101449
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8518518518518519
+Current Declutter Rate: 0.8214285714285714
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8540145985401459
+Current Declutter Rate: 0.823943661971831
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8561151079136691
+Current Declutter Rate: 0.8263888888888888
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8571428571428571
+Current Declutter Rate: 0.8247422680412371
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8432055749128919
+Current Declutter Rate: 0.8203389830508474
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8442906574394463
+Current Declutter Rate: 0.8215488215488216
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8458904109589042
+Current Declutter Rate: 0.8233333333333334
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.694236 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8394648829431438
+Current Declutter Rate: 0.8229508196721311
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8327868852459016
+Current Declutter Rate: 0.8246753246753247
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8349514563106796
+Current Declutter Rate: 0.8269230769230769
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8370607028753994
+Current Declutter Rate: 0.8291139240506329
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.551583 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8364779874213837
+Current Declutter Rate: 0.83125
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8385093167701864
+Current Declutter Rate: 0.8333333333333334
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8374233128834356
+Current Declutter Rate: 0.8348623853211009
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8384146341463414
+Current Declutter Rate: 0.8358662613981763
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8263473053892215
+Current Declutter Rate: 0.8313253012048193
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8289085545722714
+Current Declutter Rate: 0.8338278931750742
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8304093567251462
+Current Declutter Rate: 0.8352941176470589
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 2.044175 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8153409090909091
+Current Declutter Rate: 0.8318840579710145
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8095238095238095
+Current Declutter Rate: 0.8304597701149425
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.021818 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.025238 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8111111111111111
+Current Declutter Rate: 0.8295454545454546
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8093922651933702
+Current Declutter Rate: 0.827683615819209
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8119891008174387
+Current Declutter Rate: 0.83008356545961
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8054054054054054
+Current Declutter Rate: 0.8232044198895028
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8016085790884718
+Current Declutter Rate: 0.8191780821917808
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8031914893617021
+Current Declutter Rate: 0.8206521739130435
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.8194070080862533
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8020833333333334
+Current Declutter Rate: 0.8213333333333334
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8041237113402062
+Current Declutter Rate: 0.8210526315789474
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8051282051282052
+Current Declutter Rate: 0.8219895287958116
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.025535 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.032675 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8051282051282052
+Current Declutter Rate: 0.8177083333333334
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8056265984654731
+Current Declutter Rate: 0.813953488372093
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8071065989847716
+Current Declutter Rate: 0.8153846153846154
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8080808080808081
+Current Declutter Rate: 0.8163265306122449
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Invalid start state!
+panda_rightfinger and point_cloud collide!
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.801980198019802
+Current Declutter Rate: 0.8161209068010076
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8004926108374384
+Current Declutter Rate: 0.8125
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.009908 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.8138957816377171
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.801452784503632
+Current Declutter Rate: 0.8152709359605911
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.119423 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.117827 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8033573141486811
+Current Declutter Rate: 0.8150851581508516
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8047619047619048
+Current Declutter Rate: 0.8164251207729468
+IK Failed! Distance 0.077033 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8037825059101655
+Current Declutter Rate: 0.8173076923076923
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 1.032935 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8041958041958042
+Current Declutter Rate: 0.8194774346793349
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.523089 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8013856812933026
+Current Declutter Rate: 0.8164705882352942
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8036529680365296
+Current Declutter Rate: 0.8186046511627907
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8049886621315193
+Current Declutter Rate: 0.8179723502304147
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8049886621315193
+Current Declutter Rate: 0.8142201834862385
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8054298642533937
+Current Declutter Rate: 0.8109339407744874
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8058690744920993
+Current Declutter Rate: 0.8076923076923077
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8071748878923767
+Current Declutter Rate: 0.8089887640449438
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.906881 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.802660753880266
+Current Declutter Rate: 0.8062360801781737
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8043956043956044
+Current Declutter Rate: 0.8079470198675497
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8056768558951966
+Current Declutter Rate: 0.8092105263157895
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.207247 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8065217391304348
+Current Declutter Rate: 0.8065217391304348
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8077753779697624
+Current Declutter Rate: 0.8060344827586207
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8059701492537313
+Current Declutter Rate: 0.8059701492537313
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8072033898305084
+Current Declutter Rate: 0.8072033898305084
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8092243186582809
+Current Declutter Rate: 0.8092243186582809
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8104166666666667
+Current Declutter Rate: 0.8104166666666667
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8095238095238095
+Current Declutter Rate: 0.8095238095238095
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8114754098360656
+Current Declutter Rate: 0.8114754098360656
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8122448979591836
+Current Declutter Rate: 0.8122448979591836
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.061600 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.229310 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.557649 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8133874239350912
+Current Declutter Rate: 0.8117408906882592
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8092369477911646
+Current Declutter Rate: 0.8108651911468813
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Distance 1.721908 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.972765 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.808
+Current Declutter Rate: 0.808
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8095238095238095
+Current Declutter Rate: 0.8095238095238095
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8102766798418972
+Current Declutter Rate: 0.8102766798418972
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.002543 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.002496 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.806640625
+Current Declutter Rate: 0.8098039215686275
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8085106382978723
+Current Declutter Rate: 0.8116504854368932
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8096153846153846
+Current Declutter Rate: 0.8127413127413128
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8107074569789675
+Current Declutter Rate: 0.8138195777351248
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.811787072243346
+Current Declutter Rate: 0.8148854961832062
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8125
+Current Declutter Rate: 0.8125
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8105065666041276
+Current Declutter Rate: 0.8120300751879699
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8115671641791045
+Current Declutter Rate: 0.8115671641791045
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.812962962962963
+Current Declutter Rate: 0.8114602587800369
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.110423 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8139963167587477
+Current Declutter Rate: 0.8110091743119267
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8146788990825689
+Current Declutter Rate: 0.8117001828153565
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8160291438979964
+Current Declutter Rate: 0.8130671506352087
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8166969147005445
+Current Declutter Rate: 0.8137432188065099
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 2.206489 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8170289855072463
+Current Declutter Rate: 0.8111510791366906
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8186714542190305
+Current Declutter Rate: 0.8128342245989305
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8170515097690941
+Current Declutter Rate: 0.8141592920353983
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8176991150442477
+Current Declutter Rate: 0.8148148148148148
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8186619718309859
+Current Declutter Rate: 0.8157894736842105
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.819614711033275
+Current Declutter Rate: 0.8153310104529616
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8205574912891986
+Current Declutter Rate: 0.8162911611785095
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8211805555555556
+Current Declutter Rate: 0.8155172413793104
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.049063 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.056548 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8217993079584776
+Current Declutter Rate: 0.8147512864493996
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8208191126279863
+Current Declutter Rate: 0.8166383701188455
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8220338983050848
+Current Declutter Rate: 0.8178752107925801
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.821247892074199
+Current Declutter Rate: 0.8184873949579832
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8146911519198664
+Current Declutter Rate: 0.8146911519198664
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8156146179401993
+Current Declutter Rate: 0.8156146179401993
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8154859967051071
+Current Declutter Rate: 0.8168316831683168
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8157894736842105
+Current Declutter Rate: 0.8171334431630972
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8156606851549756
+Current Declutter Rate: 0.8183306055646481
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8168557536466775
+Current Declutter Rate: 0.8195121951219512
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.017166 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.817741935483871
+Current Declutter Rate: 0.8190630048465266
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.210513 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8133971291866029
+Current Declutter Rate: 0.8186195826645265
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8142857142857143
+Current Declutter Rate: 0.8194888178913738
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8154574132492114
+Current Declutter Rate: 0.8206349206349206
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.814756671899529
+Current Declutter Rate: 0.8199052132701422
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.037017 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.057327 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8150470219435737
+Current Declutter Rate: 0.8163265306122449
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8164852255054432
+Current Declutter Rate: 0.8177570093457944
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8170542635658915
+Current Declutter Rate: 0.8183229813664596
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8181818181818182
+Current Declutter Rate: 0.8194444444444444
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8187403993855606
+Current Declutter Rate: 0.82
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8183206106870229
+Current Declutter Rate: 0.8208269525267994
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8194233687405159
+Current Declutter Rate: 0.8206686930091185
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8192771084337349
+Current Declutter Rate: 0.8217522658610272
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8200899550224887
+Current Declutter Rate: 0.8225563909774436
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8208955223880597
+Current Declutter Rate: 0.8233532934131736
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8216939078751857
+Current Declutter Rate: 0.8229166666666666
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 1.005609 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.156031 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8197932053175776
+Current Declutter Rate: 0.8210059171597633
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8205882352941176
+Current Declutter Rate: 0.8217967599410898
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.821376281112738
+Current Declutter Rate: 0.8225806451612904
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8224163027656477
+Current Declutter Rate: 0.8236151603498543
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8217391304347826
+Current Declutter Rate: 0.8217391304347826
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8225108225108225
+Current Declutter Rate: 0.8225108225108225
+IK Failed! Distance 0.059335 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8223495702005731
+Current Declutter Rate: 0.8235294117647058
+pynput not installed, cannot listen to esc key
+import libkdtree fail
+Using /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/ckpt_rgb/12c7ven5/epoch=99-step=624700.ckpt
+Using model class from: /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/centergrasp/rgb/centergrasp_net.py
+Using /lustre/fswork/projects/rech/tya/ubn15wo/CenterGrasp/ckpt_sgdf/9vkd9370/epoch=99-step=31300.ckpt
+invalid start state!! (collision)
+successfully sampled a new state with a perturbation of 0.1% joint limits.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.42857142857142855
+Current Declutter Rate: 0.75
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.4
+Current Declutter Rate: 0.5
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.45454545454545453
+Current Declutter Rate: 0.5
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.6
+Current Declutter Rate: 0.6428571428571429
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.6666666666666666
+Current Declutter Rate: 0.6666666666666666
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.6363636363636364
+Current Declutter Rate: 0.7
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.6666666666666666
+Current Declutter Rate: 0.72
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7096774193548387
+Current Declutter Rate: 0.7586206896551724
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7222222222222222
+Current Declutter Rate: 0.7878787878787878
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7435897435897436
+Current Declutter Rate: 0.8055555555555556
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.75
+Current Declutter Rate: 0.8108108108108109
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7674418604651163
+Current Declutter Rate: 0.825
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.782608695652174
+Current Declutter Rate: 0.8372093023255814
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7916666666666666
+Current Declutter Rate: 0.8444444444444444
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.014561 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.018868 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7755102040816326
+Current Declutter Rate: 0.7916666666666666
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.148955 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.120790 is greater than threshold 0.001000.
+IK Failed! Distance 0.580164 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.78
+Current Declutter Rate: 0.75
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7924528301886793
+Current Declutter Rate: 0.75
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7894736842105263
+Current Declutter Rate: 0.75
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.440100 is greater than threshold 0.001000.
+IK Failed! Distance 0.001891 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.066485 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.097037 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.7384615384615385
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7910447761194029
+Current Declutter Rate: 0.7571428571428571
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7941176470588235
+Current Declutter Rate: 0.7397260273972602
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.006167 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7945205479452054
+Current Declutter Rate: 0.7532467532467533
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7837837837837838
+Current Declutter Rate: 0.7341772151898734
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7894736842105263
+Current Declutter Rate: 0.7317073170731707
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.301317 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8024691358024691
+Current Declutter Rate: 0.7471264367816092
+IK Failed! Distance 0.015963 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7951807228915663
+Current Declutter Rate: 0.75
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8023255813953488
+Current Declutter Rate: 0.7582417582417582
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8111111111111111
+Current Declutter Rate: 0.7684210526315789
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8152173913043478
+Current Declutter Rate: 0.7653061224489796
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8061224489795918
+Current Declutter Rate: 0.7669902912621359
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8137254901960784
+Current Declutter Rate: 0.7685185185185185
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.819047619047619
+Current Declutter Rate: 0.7747747747747747
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8090909090909091
+Current Declutter Rate: 0.7739130434782608
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8141592920353983
+Current Declutter Rate: 0.7666666666666667
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8220338983050848
+Current Declutter Rate: 0.776
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8264462809917356
+Current Declutter Rate: 0.78125
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8278688524590164
+Current Declutter Rate: 0.7829457364341085
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.832
+Current Declutter Rate: 0.7878787878787878
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.7883211678832117
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8043478260869565
+Current Declutter Rate: 0.7928571428571428
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Distance 1.248346 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: False
+IK Failed! Distance 1.239982 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7777777777777778
+Current Declutter Rate: 0.7832167832167832
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7785234899328859
+Current Declutter Rate: 0.7891156462585034
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7792207792207793
+Current Declutter Rate: 0.7894736842105263
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7770700636942676
+Current Declutter Rate: 0.7870967741935484
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.78125
+Current Declutter Rate: 0.7911392405063291
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7865853658536586
+Current Declutter Rate: 0.7962962962962963
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7904191616766467
+Current Declutter Rate: 0.8
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.082479 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.076944 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.192096 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7928994082840237
+Current Declutter Rate: 0.7976190476190477
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7976878612716763
+Current Declutter Rate: 0.8023255813953488
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7921348314606742
+Current Declutter Rate: 0.8057142857142857
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7967032967032966
+Current Declutter Rate: 0.8100558659217877
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7914438502673797
+Current Declutter Rate: 0.8131868131868132
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7864583333333334
+Current Declutter Rate: 0.8162162162162162
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7727272727272727
+Current Declutter Rate: 0.8095238095238095
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7688442211055276
+Current Declutter Rate: 0.8010471204188482
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7623762376237624
+Current Declutter Rate: 0.7979274611398963
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7635467980295566
+Current Declutter Rate: 0.7989690721649485
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.039775 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7692307692307693
+Current Declutter Rate: 0.8040201005025126
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7746478873239436
+Current Declutter Rate: 0.8088235294117647
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7757009345794392
+Current Declutter Rate: 0.8019323671497585
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.596986 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7798165137614679
+Current Declutter Rate: 0.8056872037914692
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7837837837837838
+Current Declutter Rate: 0.8093023255813954
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7866666666666666
+Current Declutter Rate: 0.8082191780821918
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7913043478260869
+Current Declutter Rate: 0.8125
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7939914163090128
+Current Declutter Rate: 0.8149779735682819
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7974683544303798
+Current Declutter Rate: 0.8181818181818182
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7974683544303798
+Current Declutter Rate: 0.8076923076923077
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.810126582278481
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.073899 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8024691358024691
+Current Declutter Rate: 0.8125
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.805668016194332
+Current Declutter Rate: 0.8155737704918032
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.205326 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7936507936507936
+Current Declutter Rate: 0.8097165991902834
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.657546 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.796875
+Current Declutter Rate: 0.8127490039840638
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.8156862745098039
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7886792452830189
+Current Declutter Rate: 0.8132295719844358
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.003649 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7894736842105263
+Current Declutter Rate: 0.8045977011494253
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7910447761194029
+Current Declutter Rate: 0.803030303030303
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7925925925925926
+Current Declutter Rate: 0.8045112781954887
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7904411764705882
+Current Declutter Rate: 0.8022388059701493
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7877697841726619
+Current Declutter Rate: 0.8021978021978022
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7900355871886121
+Current Declutter Rate: 0.8043478260869565
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.399975 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7827586206896552
+Current Declutter Rate: 0.8049645390070922
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7849829351535836
+Current Declutter Rate: 0.8041958041958042
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.785234899328859
+Current Declutter Rate: 0.8068965517241379
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7880794701986755
+Current Declutter Rate: 0.8095238095238095
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7922077922077922
+Current Declutter Rate: 0.8133333333333334
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7928802588996764
+Current Declutter Rate: 0.8112582781456954
+IK Failed! Distance 1.020018 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.792332268370607
+Current Declutter Rate: 0.8104575163398693
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7955974842767296
+Current Declutter Rate: 0.8135048231511254
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7975077881619937
+Current Declutter Rate: 0.8126984126984127
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.8150470219435737
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7957317073170732
+Current Declutter Rate: 0.8080495356037152
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.797583081570997
+Current Declutter Rate: 0.8098159509202454
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7994011976047904
+Current Declutter Rate: 0.8115501519756839
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7988165680473372
+Current Declutter Rate: 0.8132530120481928
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8017492711370262
+Current Declutter Rate: 0.8160237388724035
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8028985507246377
+Current Declutter Rate: 0.8147058823529412
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8040345821325648
+Current Declutter Rate: 0.8157894736842105
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7977207977207977
+Current Declutter Rate: 0.8115942028985508
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7988668555240793
+Current Declutter Rate: 0.8103448275862069
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7960893854748603
+Current Declutter Rate: 0.811965811965812
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7977839335180056
+Current Declutter Rate: 0.8135593220338984
+Run complete: True
+Grasp success: True
+IK Failed! Distance 1.934077 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7983425414364641
+Current Declutter Rate: 0.8095238095238095
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7961956521739131
+Current Declutter Rate: 0.8116343490304709
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7903225806451613
+Current Declutter Rate: 0.8054794520547945
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.792
+Current Declutter Rate: 0.8070652173913043
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7925531914893617
+Current Declutter Rate: 0.8075880758807588
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7874015748031497
+Current Declutter Rate: 0.8042895442359249
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7890625
+Current Declutter Rate: 0.8058510638297872
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7906976744186046
+Current Declutter Rate: 0.8073878627968337
+RRT Failed. Approximate solution
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7923076923076923
+Current Declutter Rate: 0.8067885117493473
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7924050632911392
+Current Declutter Rate: 0.8087855297157622
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7925
+Current Declutter Rate: 0.8107416879795396
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7857142857142857
+Current Declutter Rate: 0.8096446700507615
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7872860635696821
+Current Declutter Rate: 0.8110831234256927
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.030605 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7893462469733656
+Current Declutter Rate: 0.8129675810473815
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7913669064748201
+Current Declutter Rate: 0.8148148148148148
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7923627684964201
+Current Declutter Rate: 0.8157248157248157
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7924528301886793
+Current Declutter Rate: 0.8175182481751825
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.794392523364486
+Current Declutter Rate: 0.8173076923076923
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7903225806451613
+Current Declutter Rate: 0.8166666666666667
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7863636363636364
+Current Declutter Rate: 0.8160377358490566
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.058774 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Invalid start state!
+panda_rightfinger and point_cloud collide!
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7865168539325843
+Current Declutter Rate: 0.8158508158508159
+IK Failed! Distance 0.184248 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7865168539325843
+Current Declutter Rate: 0.813953488372093
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7849223946784922
+Current Declutter Rate: 0.815668202764977
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7868131868131868
+Current Declutter Rate: 0.817351598173516
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7792207792207793
+Current Declutter Rate: 0.8163265306122449
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7777777777777778
+Current Declutter Rate: 0.8179775280898877
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.777542372881356
+Current Declutter Rate: 0.8191964285714286
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.779874213836478
+Current Declutter Rate: 0.8211920529801324
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.988187 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.78125
+Current Declutter Rate: 0.8205689277899344
+IK Failed! Distance 0.031178 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.013942 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.012053 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7821576763485477
+Current Declutter Rate: 0.8195652173913044
+IK Failed! Distance 1.291351 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.270435 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7823408624229979
+Current Declutter Rate: 0.8211206896551724
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7832310838445807
+Current Declutter Rate: 0.8218884120171673
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7854251012145749
+Current Declutter Rate: 0.8237791932059448
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 2.369724 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7867203219315896
+Current Declutter Rate: 0.8248945147679325
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7875751503006012
+Current Declutter Rate: 0.8256302521008403
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7875751503006012
+Current Declutter Rate: 0.8221757322175732
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7888446215139442
+Current Declutter Rate: 0.8232848232848233
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7905138339920948
+Current Declutter Rate: 0.8247422680412371
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7890625
+Current Declutter Rate: 0.8261758691206544
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7852998065764023
+Current Declutter Rate: 0.8235294117647058
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7869481765834933
+Current Declutter Rate: 0.8232931726907631
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7893738140417458
+Current Declutter Rate: 0.8253968253968254
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.104033 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7909604519774012
+Current Declutter Rate: 0.8267716535433071
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7925233644859813
+Current Declutter Rate: 0.828125
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7907407407407407
+Current Declutter Rate: 0.829126213592233
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7904411764705882
+Current Declutter Rate: 0.8301158301158301
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7912087912087912
+Current Declutter Rate: 0.8307692307692308
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.791970802919708
+Current Declutter Rate: 0.8314176245210728
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7931034482758621
+Current Declutter Rate: 0.8323809523809523
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7927927927927928
+Current Declutter Rate: 0.831758034026465
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7942754919499105
+Current Declutter Rate: 0.8330206378986866
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7950089126559715
+Current Declutter Rate: 0.8336448598130841
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.010684 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7950089126559715
+Current Declutter Rate: 0.8305400372439479
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7964601769911505
+Current Declutter Rate: 0.8317929759704251
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7975352112676056
+Current Declutter Rate: 0.8327205882352942
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.071175 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7985989492119089
+Current Declutter Rate: 0.8336380255941499
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.798951048951049
+Current Declutter Rate: 0.8309090909090909
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7996515679442509
+Current Declutter Rate: 0.8315217391304348
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8006932409012132
+Current Declutter Rate: 0.8324324324324325
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8013816925734024
+Current Declutter Rate: 0.8330341113105925
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.802065404475043
+Current Declutter Rate: 0.8336314847942755
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8020477815699659
+Current Declutter Rate: 0.8333333333333334
+IK Failed! Distance 0.131961 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.112670 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8027210884353742
+Current Declutter Rate: 0.8324514991181657
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8006756756756757
+Current Declutter Rate: 0.8330404217926186
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7986577181208053
+Current Declutter Rate: 0.8307155322862129
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7970049916805324
+Current Declutter Rate: 0.8315972222222222
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7970297029702971
+Current Declutter Rate: 0.8327586206896552
+IK Failed! Distance 0.581875 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7980295566502463
+Current Declutter Rate: 0.8336192109777015
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7941176470588235
+Current Declutter Rate: 0.8293515358361775
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7902439024390244
+Current Declutter Rate: 0.8251273344651953
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7915993537964459
+Current Declutter Rate: 0.8263069139966274
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.792604501607717
+Current Declutter Rate: 0.8271812080536913
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7936
+Current Declutter Rate: 0.8280467445742905
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.794912559618442
+Current Declutter Rate: 0.8291873963515755
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7962085308056872
+Current Declutter Rate: 0.8303130148270181
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7959183673469388
+Current Declutter Rate: 0.8297872340425532
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7965571205007824
+Current Declutter Rate: 0.8289902280130294
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.236822 is greater than threshold 0.001000.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+IK Failed! Distance 0.292078 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.796583850931677
+Current Declutter Rate: 0.8274193548387097
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7968992248062016
+Current Declutter Rate: 0.8276972624798712
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7984615384615384
+Current Declutter Rate: 0.829073482428115
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7996941896024465
+Current Declutter Rate: 0.8301587301587302
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7993920972644377
+Current Declutter Rate: 0.8296529968454258
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.800302571860817
+Current Declutter Rate: 0.8304552590266876
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8
+Current Declutter Rate: 0.83125
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8011958146487295
+Current Declutter Rate: 0.8322981366459627
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.016588 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.015932 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7979197622585439
+Current Declutter Rate: 0.8312693498452013
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7991137370753324
+Current Declutter Rate: 0.8323076923076923
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7997054491899853
+Current Declutter Rate: 0.8315467075038285
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7991202346041055
+Current Declutter Rate: 0.8320610687022901
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7988338192419825
+Current Declutter Rate: 0.8328267477203647
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.7994227994227994
+Current Declutter Rate: 0.8343373493975904
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8005738880918221
+Current Declutter Rate: 0.8340807174887892
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: False
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Run complete: True
+Grasp success: True
+Invalid start state!
+panda_rightfinger and point_cloud collide!
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.7991452991452992
+Current Declutter Rate: 0.8335809806835067
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8002832861189801
+Current Declutter Rate: 0.8345642540620384
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+IK Failed! Cannot find valid solution.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8011283497884344
+Current Declutter Rate: 0.8340675477239354
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: False
+IK Failed! Distance 1.212258 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8013986013986014
+Current Declutter Rate: 0.834061135371179
+Run complete: True
+Grasp success: True
+IK Failed! Cannot find valid solution.
+Run complete: True
+Grasp success: True
+IK Failed! Distance 1.003566 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Episode complete!
+Current Success Rate: 0.8025034770514604
+Current Declutter Rate: 0.8350217076700435
+Run complete: True
+Grasp success: False
+IK Failed! Distance 0.003985 is greater than threshold 0.001000.
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+Run complete: False
+Grasp success: False
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.8024861878453039
+Current Declutter Rate: 0.8347701149425287
+Run complete: True
+Grasp success: True
+Run complete: True
+Grasp success: True
+IK Failed! Distance 0.186034 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+IK Failed! Distance 0.149863 is greater than threshold 0.001000.
+Run complete: False
+Grasp success: False
+Episode complete!
+Current Success Rate: 0.803030303030303
+Current Declutter Rate: 0.8340486409155937
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!
+pynput not installed, cannot listen to esc key
+import libmesh failed!

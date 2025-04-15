@@ -1,0 +1,66 @@
+Loading pytorch-gpu/py3/1.13.0
+  Loading requirement: cuda/11.2 nccl/2.9.6-1-cuda cudnn/8.1.1.33-cuda gcc/8.5.0
+    openmpi/4.1.1-cuda intel-mkl/2020.4 magma/2.5.4-cuda-oneapi-mkl sox/14.4.2
+    sparsehash/2.0.3 libjpeg-turbo/2.1.3 ffmpeg/N-94431
+Unloading cuda/11.2
+  Unloading dependent: pytorch-gpu/py3/1.13.0 magma/2.5.4-cuda-oneapi-mkl
+    openmpi/4.1.1-cuda cudnn/8.1.1.33-cuda nccl/2.9.6-1-cuda
+  Unloading useless requirement: ffmpeg/N-94431 libjpeg-turbo/2.1.3
+    sparsehash/2.0.3 sox/14.4.2 intel-mkl/2020.4 gcc/8.5.0
+wandb: WARNING `resume` will be ignored since W&B syncing is set to `offline`. Starting a new run with run id pw8ljnmp.
+wandb: Tracking run with wandb version 0.15.12
+wandb: W&B syncing is set to `offline` in this directory.  
+wandb: Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: logging graph, to disable use `wandb.watch(log_graph=False)`
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0]
+
+  | Name       | Type      | Params
+-----------------------------------------
+0 | decoder    | Decoder   | 1.8 M 
+1 | embeddings | Embedding | 40.0 K
+-----------------------------------------
+1.9 M     Trainable params
+0         Non-trainable params
+1.9 M     Total params
+7.553     Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=100` reached.
+wandb: Waiting for W&B process to finish... (success).
+wandb: 
+wandb: Run history:
+wandb:               epoch ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb:        lr/embedding ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:          lr/network ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: train/loss/codesize ▁▅███▇█▇▇▇▇▇▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▅▅▅▆▅▅▅▅▅▅▅▆▅
+wandb:    train/loss/grasp █▃▂▂▂▂▂▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      train/loss/sdf █▆▄▃▃▂▂▂▂▂▂▂▂▁▁▂▂▁▁▁▁▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:    train/loss/total █▄▃▂▂▂▂▂▂▂▁▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb: trainer/global_step ▁▁▁▁▂▂▂▂▂▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▆▆▆▆▆▇▇▇▇▇▇███
+wandb: valid/loss/codesize ▁▅▇█▇▇▇▇▇▆▆▇▆▅▇▆▆▆▆▆▅▅▆▅▅▆▅▆▆▅▆▅▅▆▅▄▆▅▆▅
+wandb:    valid/loss/grasp █▃▂▃▂▃▂▂▂▂▁▂▁▁▂▁▂▂▁▂▁▁▂▁▁▂▁▂▁▁▂▁▁▁▁▁▁▁▂▁
+wandb:      valid/loss/sdf █▅▃▄▂▃▃▂▂▁▁▂▁▁▂▁▂▂▁▁▁▁▂▁▁▂▁▂▂▁▁▂▂▂▁▁▂▁▂▁
+wandb:    valid/loss/total █▃▂▃▂▃▂▂▂▁▁▂▁▁▂▁▂▂▁▂▁▁▂▁▁▂▁▂▁▁▁▁▁▂▁▁▁▁▁▁
+wandb:  valid/mean_abs_sdf ▂▁▁▅▃▂▇▄▃▄▄█▅▄█▅▃█▅▃▄▄█▅▄█▅▃█▄▃▄▃█▄▃█▄▃▄
+wandb: 
+wandb: Run summary:
+wandb:               epoch 99
+wandb:        lr/embedding 0.001
+wandb:          lr/network 0.0005
+wandb: train/loss/codesize 0.43722
+wandb:    train/loss/grasp 0.03771
+wandb:      train/loss/sdf 0.00144
+wandb:    train/loss/total 0.05252
+wandb: trainer/global_step 15699
+wandb: valid/loss/codesize 0.50556
+wandb:    valid/loss/grasp 0.03458
+wandb:      valid/loss/sdf 0.00149
+wandb:    valid/loss/total 0.05003
+wandb:  valid/mean_abs_sdf 0.00262
+wandb: 
+wandb: You can sync this run to the cloud by running:
+wandb: wandb sync ./wandb/offline-run-20250410_145558-pw8ljnmp
+wandb: Find logs at: ./wandb/offline-run-20250410_145558-pw8ljnmp/logs
