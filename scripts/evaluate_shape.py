@@ -133,7 +133,7 @@ def main(
         project="[CenterGrasp] SimEvalShape",
         entity="robot-learning-lab",
         config={"env": env, "seed": seed, "num_episodes": num_episodes},
-        mode="online" if log_wandb else "disabled",
+        mode="offline",
     )
     for episode in tqdm.tqdm(range(num_episodes)):
         obs = environment.get_obs()

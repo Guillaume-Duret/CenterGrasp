@@ -44,7 +44,7 @@ def main(
             "seed": seed,
             "num_episodes": num_episodes,
         },
-        mode="online" if log_wandb else "disabled",
+        mode="offline",
     )
 
     camera_config = CameraObsConfig(rgb=True, depth_gt=True)

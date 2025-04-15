@@ -73,7 +73,7 @@ def main(
     enable_checkpointing = False
     callbacks = []
     if log_wandb:
-        logger = WandbLogger(project="[CenterGrasp] RGB", entity="robot-learning-lab")
+        logger = WandbLogger(project="[CenterGrasp] RGB")
         logger.watch(lit_model)  # type: ignore
         enable_checkpointing = True
         checkpoints_path = Directories.ROOT / "ckpt_rgb" / logger.version
