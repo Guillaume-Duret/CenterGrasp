@@ -1,6 +1,6 @@
 {
-    "num_workers": 16,
-    "batch_size": 32,
+    "num_workers": 8,
+    "batch_size": 64,
     "points_per_obj": 12500,
     "accelerator": "gpu"
 }
