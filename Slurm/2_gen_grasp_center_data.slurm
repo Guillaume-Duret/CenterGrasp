@@ -18,11 +18,12 @@ module unload cuda
 module load cuda/11.7.1
 
 #conda create --name centergrasp_$1 --clone centergrasp_g_env
-conda create --name centergrasp_$1 --clone centergrasp_g_env --copy --offline --yes
-conda activate centergrasp_$1 
+
+cp -r $SCRATCH/.conda/envs/centergrasp_g_env $SCRATCH/.conda/envs/centergrasp_$1
+conda activate centergrasp_$1  
 
 cd /lustre/fswork/projects/rech/tya/ubn15wo/$1
-pip install -e .
+python -m pip install -e . --no-deps
 
 #generate data
 python scripts/make_grasp_labels.py --num-workers 10
