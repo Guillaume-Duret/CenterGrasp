@@ -67,7 +67,7 @@ def main(log_wandb: bool = False, gpu_num: int = 0, dataset: str = "giga"):
     enable_checkpointing = False
     callbacks = []
     if log_wandb:
-        logger = WandbLogger(project="[CenterGrasp] SGDF", entity="robot-learning-lab")
+        logger = WandbLogger(project="[CenterGrasp] SGDF")
         logger.watch(lit_model)  # type: ignore
         enable_checkpointing = True
         checkpoints_path = Directories.ROOT / "ckpt_sgdf" / logger.version
