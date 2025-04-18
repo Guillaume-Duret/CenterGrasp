@@ -6,15 +6,20 @@ if [ "$#" -ne 2 ]; then
     exit 1
 fi
 
-project_dir=$1
-data_dir=$2
+code_ref=$1
+data_ref=$2
+project_dir=$3
+data_dir=$4
 
 # Define the directory where your slurm scripts are located
 SLURM_SCRIPT_DIR="/lustre/fswork/projects/rech/tya/ubn15wo/$project_dir/Slurm"  # CHANGE THIS TO YOUR ACTUAL PATH
 
 # Copy directories
-cp -rf $WORK/CenterGrasp_ref_dev $WORK/$project_dir
-cp -rf $SCRATCH/Centergrasp_data_ref $SCRATCH/$data_dir
+#cp -rf $WORK/CenterGrasp_ref_dev $WORK/$project_dir
+#cp -rf $SCRATCH/Centergrasp_data_ref $SCRATCH/$data_dir
+
+cp -rf $WORK/code_ref $WORK/$project_dir
+cp -rf $SCRATCH/data_ref $SCRATCH/$data_dir
 
 ln -sf $SCRATCH/$data_dir $WORK/$project_dir/Centergrasp_data_Test
 
