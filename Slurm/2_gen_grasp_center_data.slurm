@@ -23,7 +23,7 @@ cp -r $SCRATCH/.conda/envs/centergrasp_g_env $SCRATCH/.conda/envs/centergrasp_$1
 conda activate centergrasp_$1  
 
 cd /lustre/fswork/projects/rech/tya/ubn15wo/$1
-pip install -e . --no-deps
+python -m pip install -e . --no-deps
 
 #generate data
 python scripts/make_grasp_labels.py --num-workers 10

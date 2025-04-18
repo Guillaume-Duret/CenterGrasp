@@ -11,7 +11,7 @@ class Directories:
     ROOT = pathlib.Path(__file__).parent.parent
     DATA = ROOT / "Centergrasp_data_Test"
     GIGA = DATA / "data" # "giga"
-    TEXTURES = DATA / "texesegbttures"
+    TEXTURES = DATA / "textures"
     YCB = DATA / "maniskill_ycb"
     FRANKA = DATA / "franka"
     GRASPNET = DATA / "graspnet"

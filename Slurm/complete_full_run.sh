@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Check if both arguments are provided
-if [ "$#" -ne 2 ]; then
-    echo "Usage: $0 <CenterGrasp_project_dir> <Centergrasp_data_dir>"
+# Check if exactly 4 arguments are provided
+if [ "$#" -ne 4 ]; then
+    echo "Usage: $0 <code_ref> <data_ref> <project_dir> <data_dir>"
     exit 1
 fi
 
@@ -18,8 +18,8 @@ SLURM_SCRIPT_DIR="/lustre/fswork/projects/rech/tya/ubn15wo/$project_dir/Slurm"  
 #cp -rf $WORK/CenterGrasp_ref_dev $WORK/$project_dir
 #cp -rf $SCRATCH/Centergrasp_data_ref $SCRATCH/$data_dir
 
-cp -rf $WORK/code_ref $WORK/$project_dir
-cp -rf $SCRATCH/data_ref $SCRATCH/$data_dir
+cp -rf $WORK/$code_ref $WORK/$project_dir
+cp -rf $SCRATCH/$data_ref $SCRATCH/$data_dir
 
 ln -sf $SCRATCH/$data_dir $WORK/$project_dir/Centergrasp_data_Test
 
@@ -36,7 +36,6 @@ echo "0"
 pwd
 
 job0=$(sbatch --parsable ${SLURM_SCRIPT_DIR}/0_setup.slurm $project_dir)
-
 
 job1=$(sbatch --parsable --dependency=afterok:$job0 ${SLURM_SCRIPT_DIR}/0_gen_giga_data.slurm $project_dir $data_dir pile gen_data_pile_train_random_raw_4M)
 job2=$(sbatch --parsable --dependency=afterok:$job0 ${SLURM_SCRIPT_DIR}/0_gen_giga_data.slurm $project_dir $data_dir packed gen_data_packed_train_random_raw_4M)

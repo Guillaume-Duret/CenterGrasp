@@ -19,12 +19,12 @@ module load pytorch-gpu/py3/1.13.0
 module unload cuda
 module load cuda/11.7.1
 
-conda create --name giga_$1 --clone process_giga
+conda create --name giga_$1 --clone process_giga --yes
 conda activate giga_$1  # process_giga # centergrasp_g_env
 
 cd /lustre/fswork/projects/rech/tya/ubn15wo/$1/GIGA_ori
-pip install -e . --no-deps
-
+#python -m pip install -e . --no-deps
+pip install -e .
 
 wait
 
