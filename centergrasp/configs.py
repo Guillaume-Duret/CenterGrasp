@@ -6,11 +6,11 @@ import spatialmath as sm
 from dataclasses import dataclass
 from centergrasp.cameras import CameraParams
 
-
 @dataclass
 class Directories:
-    DATA = pathlib.Path.home() / "datasets"
-    GIGA = DATA / "giga"
+    ROOT = pathlib.Path(__file__).parent.parent
+    DATA = ROOT / "Centergrasp_data_Test"
+    GIGA = DATA / "data" # "giga"
     TEXTURES = DATA / "textures"
     YCB = DATA / "maniskill_ycb"
     FRANKA = DATA / "franka"
@@ -23,7 +23,7 @@ class Directories:
     EVAL_GRASPNET = DATA / "centergrasp_g" / "graspnet/dump_eval"
     EVAL_GRASPNET_OLD = DATA / "centergrasp_g" / "graspnet/dump_eval_old"
     ROOT = pathlib.Path(__file__).parent.parent
-    GIGA_REPO = ROOT.parent / "GIGA"
+    GIGA_REPO = DATA # / "GIGA"
     CONFIGS = ROOT / "configs"
 
 

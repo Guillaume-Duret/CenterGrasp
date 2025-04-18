@@ -103,10 +103,10 @@ class MeshPathsLoader:
 
 
 class GigaScenesLoader:
-    PACKED_TRAIN_RAW = Path(Directories.GIGA) / "packed/40_no_data_packed_train_random_raw_4M"
-    PILE_TRAIN_RAW = Path(Directories.GIGA) / "pile/40_no_data_pile_train_random_raw_4M"
-    PACKED_TRAIN_PROC = Path(Directories.GIGA) / "packed/40_no_data_packed_train_random_4M_noise"
-    PILE_TRAIN_PROC = Path(Directories.GIGA) / "pile/40_no_data_pile_train_random_raw_4M_noise"
+    PACKED_TRAIN_RAW = Path(Directories.GIGA) / "packed/gen_data_packed_train_random_raw_4M"
+    PILE_TRAIN_RAW = Path(Directories.GIGA) / "pile/gen_data_pile_train_random_raw_4M"
+    PACKED_TRAIN_PROC = Path(Directories.GIGA) / "packed/gen_data_packed_train_random_4M_noise"
+    PILE_TRAIN_PROC = Path(Directories.GIGA) / "pile/gen_data_pile_train_random_4M_noise"
 
     def __init__(self) -> None:
         self.packed_scene_ids = [
