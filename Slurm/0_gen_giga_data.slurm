@@ -2,11 +2,11 @@
 
 #SBATCH -A uli@cpu
 #SBATCH --job-name=0_gen_data # nom du job
-#SBATCH --qos=qos_cpu-dev
+#SBATCH --qos=qos_cpu-t4
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
-#SBATCH --cpus-per-task=10 # nbr de CPU par tache
+#SBATCH --cpus-per-task=40 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
-#SBATCH --time=2:00:00 # temps d'execution max
+#SBATCH --time=100:00:00 # temps d'execution max
 #SBATCH --output=log/0_gen_data_obj%j.out # fichier sortie
 #SBATCH --error=log/0_err_gen_data_obj%j.out # fichier d'erreur
 #SBAdsezfczeTCH --array=0-96:3
@@ -29,8 +29,7 @@ pwd
 echo $1
 
 #python scripts/generate_data_parallel.py --scene $1 --object-set $1/train --num-grasps 4000 --num-proc 10 --save-scene ./data/$1/$2
-python scripts/generate_data_parallel.py --scene $3 --object-set $3/train --num-grasps 2000 --num-proc 1 --save-scene /lustre/fsn1/projects/rech/tya/ubn15wo/$2/data/$3/$4
-
+python scripts/generate_data_parallel.py --scene $3 --object-set $3/train --num-grasps 5000000 --num-proc 40 --save-scene /lustre/fsn1/projects/rech/tya/ubn15wo/$2/data/$3/$4
 
 wait
 

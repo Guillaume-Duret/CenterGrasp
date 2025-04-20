@@ -2,7 +2,7 @@
 
 #SBATCH -A uli@cpu
 #SBATCH --job-name=00_setup # nom du job
-#SBATCH --qos=qos_cpu-dev
+#SBATCH --qos=qos_cpu-t3
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --cpus-per-task=10 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading

@@ -1,15 +1,15 @@
 #!/bin/bash
 
 #SBATCH -A uli@v100
-#SBezzefATCH -C v100-32g
-#SBATCH --partition=gpu_p2
+#SBATCH -C v100-32g
+#SBvreveATCH --partition=gpu_p2
 #SBATCH --job-name=5_train_rgbd # nom du job
-#SBATCH --qos=qos_gpu-dev
+#SBATCH --qos=qos_gpu-t4
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --gres=gpu:1 # nbr de GPU par nœud
 #SBATCH --cpus-per-task=10 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
-#SBATCH --time=2:00:00 # temps d'execution max
+#SBATCH --time=100:00:00 # temps d'execution max
 #SBATCH --output=log/5_train_rgbd%j.out # fichier sortie
 #SBATCH --error=log/5_error_train_rgbd%j.out # fichier d'erreur
 #SBgregregeATCH --array=6-9:3

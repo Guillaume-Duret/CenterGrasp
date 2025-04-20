@@ -2,11 +2,11 @@
 
 #SBATCH -A uli@cpu
 #SBATCH --job-name=1_giga_process # nom du job
-#SBATCH --qos=qos_cpu-dev
+#SBATCH --qos=qos_cpu-t3
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
-#SBATCH --cpus-per-task=10 # nbr de CPU par tache
+#SBATCH --cpus-per-task=40 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
-#SBATCH --time=2:00:00 # temps d'execution max
+#SBATCH --time=20:00:00 # temps d'execution max
 #SBATCH --output=log/1_pro_giga%j.out # fichier sortie
 #SBATCH --error=log/1_error_pro_giga%j.out # fichier d'erreur
 #SBAdsezfczeTCH --array=0-96:3
@@ -29,7 +29,7 @@ python scripts/clean_balance_data.py $2
 
 python scripts/construct_dataset_parallel.py --num-proc 1 --single-view --add-noise dex $2 $3
 
-python scripts/save_occ_data_parallel.py $2 100000 2 --num-proc 8
+python scripts/save_occ_data_parallel.py $2 100000 2 --num-proc 40
 
 
 

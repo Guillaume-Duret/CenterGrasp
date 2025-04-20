@@ -2,13 +2,13 @@
 
 #SBATCH -A uli@h100
 #SBATCH -C h100
-#SBATCH --qos=qos_gpu_h100-dev
+#SBATCH --qos=qos_gpu_h100-t4
 #SBATCH --job-name=31_gen_rgb # nom du job
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --gres=gpu:1 # nbr de GPU par nœud
 #SBATCH --cpus-per-task=24 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
-#SBATCH --time=2:00:00 # temps d'execution max
+#SBATCH --time=100:00:00 # temps d'execution max
 #SBATCH --output=log/31_gen_rgb_center%j.out # fichier sortie
 #SBATCH --error=log/31_error_gen_rgb_center%j.out # fichier d'erreur
 #SBgregregeATCH --array=6-9:3
