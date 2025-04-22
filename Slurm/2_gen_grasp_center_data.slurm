@@ -5,8 +5,8 @@
 #SBATCH --job-name=2_gen_sgdf # nom du job
 #SBATCH --qos=qos_gpu-t3
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
-#SBATCH --gres=gpu:1 # nbr de GPU par nœud
-#SBATCH --cpus-per-task=10 # nbr de CPU par tache
+#SBATCH --gres=gpu:4 # nbr de GPU par nœud
+#SBATCH --cpus-per-task=40 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
 #SBATCH --time=20:00:00 # temps d'execution max
 #SBATCH --output=log/2_gen_sgdf%j.out # fichier sortie
@@ -26,8 +26,8 @@ cd /lustre/fswork/projects/rech/tya/ubn15wo/$1
 python -m pip install -e . --no-deps
 
 #generate data
-python scripts/make_grasp_labels.py --num-workers 10
-python scripts/make_sgdf_dataset.py --num-workers 10
+python scripts/make_grasp_labels.py --num-workers 40
+python scripts/make_sgdf_dataset.py --num-workers 40
 
 
 
