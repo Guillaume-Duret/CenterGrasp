@@ -55,7 +55,7 @@ job7=$(sbatch --parsable --dependency=afterok:$job5 ${SLURM_SCRIPT_DIR}/32_gen_r
 
 # Training jobs depend on RGBD generation
 job8=$(sbatch --parsable --dependency=afterok:$job5 ${SLURM_SCRIPT_DIR}/4_train_sgdf.slurm $project_dir)
-job9=$(sbatch --parsable --dependency=afterok:$job8 ${SLURM_SCRIPT_DIR}/5_train_rgb.slurm $project_dir)
+job9=$(sbatch --parsable --dependency=afterok:$job8:$job6:$job7 ${SLURM_SCRIPT_DIR}/5_train_rgb.slurm $project_dir)
 
 echo "All jobs submitted with dependencies:"
 echo "Data generation jobs: $job1, $job2"
