@@ -21,6 +21,7 @@ module load cuda/11.7.1
 cd /lustre/fswork/projects/rech/tya/ubn15wo/$1
 conda activate centergrasp_$1
 
+export TMPDIR=$JOBSCRATCH
 WANDB_MODE=offline python scripts/train_sgdf.py --log-wandb
 
 
