@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -A uli@cpu
+#SBATCH -A tya@cpu
 #SBATCH --job-name=1_giga_process # nom du job
 #SBATCH --qos=qos_cpu-t3
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)

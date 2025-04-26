@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #SBATCH -A uli@v100
-#SBATCH -C v100-32g
+#SBfezfezATCH -C v100-32g
 #SBATCH --job-name=2_gen_sgdf # nom du job
 #SBATCH --qos=qos_gpu-t3
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)

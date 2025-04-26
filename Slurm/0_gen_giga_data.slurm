@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -A uli@cpu
+#SBATCH -A tya@cpu
 #SBATCH --job-name=0_gen_data # nom du job
 #SBATCH --qos=qos_cpu-t4
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
