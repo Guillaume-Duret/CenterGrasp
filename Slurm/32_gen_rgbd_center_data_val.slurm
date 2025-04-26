@@ -26,7 +26,7 @@ conda activate centergrasp_$1
 
 #generate data
 #python scripts/make_rgb_dataset.py --headless --raytracing --num-workers 15 --mode train
-python scripts/make_rgb_dataset.py --headless --raytracing --num-workers 15 --mode valid
+python scripts/make_rgb_dataset.py --headless --raytracing --num-workers 1 --mode valid
 
 
 
