@@ -23,6 +23,7 @@ conda activate centergrasp_$1
 
 latest_ckpt=$(ls ckpt_sgdf/ | head -n 1) && jq --arg ckpt "$latest_ckpt" '.EmbeddingCkptPath = $ckpt' configs/rgb_train_specs.json > configs/rgb_train_specs.json.tmp && mv configs/rgb_train_specs.json.tmp configs/rgb_train_specs.json
 
+export TMPDIR=$JOBSCRATCH
 WANDB_MODE=offline python scripts/train_rgbd.py --log-wandb
 
 
