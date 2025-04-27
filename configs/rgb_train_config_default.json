@@ -1,5 +1,5 @@
 {
-    "num_workers": 7,
-    "batch_size": 32,
+    "num_workers": 20,
+    "batch_size": 64,
     "accelerator": "gpu"
 }

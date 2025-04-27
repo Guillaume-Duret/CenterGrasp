@@ -6,8 +6,8 @@
 #SBATCH --job-name=5_train_rgbd # nom du job
 #SBATCH --qos=qos_gpu-t4
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
-#SBATCH --gres=gpu:1 # nbr de GPU par nœud
-#SBATCH --cpus-per-task=10 # nbr de CPU par tache
+#SBATCH --gres=gpu:3 # nbr de GPU par nœud
+#SBATCH --cpus-per-task=30 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
 #SBATCH --time=100:00:00 # temps d'execution max
 #SBATCH --output=log/5_train_rgbd%j.out # fichier sortie
