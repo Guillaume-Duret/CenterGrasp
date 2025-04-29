@@ -7,7 +7,7 @@
 #SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --ntasks-per-node=8
 #SBATCH --gres=gpu:8 # nbr de GPU par nœud
-#SBATCH --cpus-per-task=24 # nbr de CPU par tache
+#SBATCH --cpus-per-task=3 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
 #SBATCH --time=20:00:00 # temps d'execution max
 #SBATCH --output=log/5_a100_train_rgbd%j.out # fichier sortie
