@@ -9,14 +9,14 @@ from typing import Optional
 
 def main(
     log_wandb: bool = False,
-    gpu_num: int = 0,
+    #gpu_num: int = 0,
     seed: int = 12345,
     resume_ckpt: Optional[str] = None,
     dataset: str = "giga",
 ):
     assert dataset in ["giga", "graspnet"]
     # Need to do this before importing torch
-    os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_num)
+    #os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_num)
 
     import torch
     import pytorch_lightning as pl
@@ -72,11 +72,17 @@ def main(
     logger = False
     enable_checkpointing = False
     callbacks = []
-    if log_wandb:
-        logger = WandbLogger(project="[CenterGrasp] RGB")
+    if log_wandb and (int(os.environ.get("LOCAL_RANK", 0)) == 0) :
+        logger = WandbLogger(project="[CenterGrasp] RGB", offline=True)
+
         logger.watch(lit_model)  # type: ignore
         enable_checkpointing = True
-        checkpoints_path = Directories.ROOT / "ckpt_rgb" / logger.version
+
+        checkpoints_path = Directories.ROOT / "ckpt_rgb"
+        #if logger.version is not None:  # Check if version exists
+        checkpoints_path = checkpoints_path / str(logger.version)
+        checkpoints_path.mkdir(parents=True, exist_ok=True)
+
         checkpoint_callback = ModelCheckpoint(dirpath=checkpoints_path, every_n_epochs=1)
         callbacks.append(checkpoint_callback)
         logger.experiment.config.update(specs)
@@ -91,7 +97,8 @@ def main(
     # Training
     trainer = pl.Trainer(
         accelerator=_config["accelerator"],
-        devices=1,
+        strategy="ddp_find_unused_parameters_true",
+        devices=8,
         max_epochs=specs["NumEpochs"],
         logger=logger,
         enable_checkpointing=enable_checkpointing,
