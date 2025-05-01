@@ -68,12 +68,21 @@ def main(
     # Model
     lit_model = LitCenterGraspModel(**specs)
 
+
     # Loggers
-    logger = False
+    logger = None
     enable_checkpointing = False
     callbacks = []
-    if log_wandb and (int(os.environ.get("LOCAL_RANK", 0)) == 0) :
-        logger = WandbLogger(project="[CenterGrasp] RGB", offline=True)
+    if log_wandb :
+        logger = WandbLogger(
+            project="[CenterGrasp] RGB",
+            offline=True,
+            config={  # Initialize with config upfront
+                **specs,
+                **_config,
+                "seed": seed
+            }
+        )
 
         logger.watch(lit_model)  # type: ignore
         enable_checkpointing = True
@@ -85,9 +94,9 @@ def main(
 
         checkpoint_callback = ModelCheckpoint(dirpath=checkpoints_path, every_n_epochs=1)
         callbacks.append(checkpoint_callback)
-        logger.experiment.config.update(specs)
-        logger.experiment.config.update(_config)
-        logger.experiment.config.update({"seed": seed})
+        #logger.experiment.config.update(specs)
+        #logger.experiment.config.update(_config)
+        #logger.experiment.config.update({"seed": seed})
 
     # Resume Ckpt
     resume_ckpt_path = (
@@ -98,7 +107,7 @@ def main(
     trainer = pl.Trainer(
         accelerator=_config["accelerator"],
         strategy="ddp_find_unused_parameters_true",
-        devices=8,
+        devices=4,
         max_epochs=specs["NumEpochs"],
         logger=logger,
         enable_checkpointing=enable_checkpointing,

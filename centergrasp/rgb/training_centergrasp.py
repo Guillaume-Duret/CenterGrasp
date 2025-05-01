@@ -120,21 +120,22 @@ class LitCenterGraspModel(pl.LightningModule):
         return self.model(image)
 
     def log_predictions(self, rgb, heatmap_out, posemap_out, prefix):
-        if self.logger is not None:
+        if self.logger is not None and isinstance(self.logger, pl.loggers.WandbLogger):
             with torch.no_grad():
+                # Convert predictions to visualizations
                 rgb_np = data_utils.img_torch_to_np(rgb)
-                # Project poses
                 heatmap_np = heatmap_out.detach().cpu().numpy()
                 heatmap_pred_vis = visualize_heatmap(np.copy(rgb_np), heatmap_np, with_peaks=True)
                 posemap_np = poses_to_numpy(posemap_out)
                 poses = get_poses(heatmap_np, posemap_np)
                 pose_pred_vis = visualize_poses(rgb_np, poses, self.K)
-                llog = {}
-                llog[f"{prefix}/pose"] = wandb.Image(pose_pred_vis, caption=prefix)
-                llog[f"{prefix}/heatmap"] = wandb.Image(heatmap_pred_vis, caption=prefix)
-                llog["trainer/global_step"] = self.global_step
-                wandb.log(llog)
-        return
+            
+                # Only log from rank 0 in DDP
+                if self.trainer.is_global_zero:
+                    self.logger.experiment.log({
+                        f"{prefix}/pose": wandb.Image(pose_pred_vis, caption=prefix),
+                        f"{prefix}/heatmap": wandb.Image(heatmap_pred_vis, caption=prefix)
+                    })
 
     def compute_loss(
         self,
@@ -158,14 +159,12 @@ class LitCenterGraspModel(pl.LightningModule):
 
     def log_loss(self, loss, heatmap_loss, pose_loss, shape_loss, prefix):
         if self.logger is not None:
-            llog = {}
-            llog[f"{prefix}/loss/total"] = loss
-            llog[f"{prefix}/loss/heatmap"] = heatmap_loss
-            llog[f"{prefix}/loss/pose"] = pose_loss
-            llog[f"{prefix}/loss/shape"] = shape_loss
-            llog["trainer/global_step"] = self.global_step
-            wandb.log(llog)
-        return
+            self.log_dict({
+                f"{prefix}/loss/total": loss,
+                f"{prefix}/loss/heatmap": heatmap_loss,
+                f"{prefix}/loss/pose": pose_loss,
+                f"{prefix}/loss/shape": shape_loss
+            }, on_step=True, on_epoch=True, sync_dist=True)
 
     def training_step(self, batch, batch_idx):
         prefix = "train"

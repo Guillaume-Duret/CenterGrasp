@@ -1,6 +1,6 @@
 {
   "CodeLength": 32,
-  "NumEpochs": 100,
+  "NumEpochs": 300,
   "EmbeddingCkptPath": "1zivznz4",
   "heatmap_loss_w": 100,
   "shape_loss_w": 1,
