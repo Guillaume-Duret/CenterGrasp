@@ -6,6 +6,7 @@
 #SBATCH --job-name=5_v100_train_rgbd # nom du job
 #SBATCH --qos=qos_gpu-t4
 #SBATCH --nodes=1
+#SBATCH --exclusive
 #SBcezcsATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --ntasks-per-node=4
 #SBATCH --gres=gpu:4 # nbr de GPU par nœud
@@ -25,7 +26,7 @@ cd $WORK/$1
 cd /lustre/fswork/projects/rech/tya/ubn15wo/$1
 conda activate centergrasp_$1
 
-#latest_ckpt=$(ls ckpt_sgdf/ | head -n 1) && jq --arg ckpt "$latest_ckpt" '.EmbeddingCkptPath = $ckpt' configs/rgb_train_specs.json > configs/rgb_train_specs.json.tmp && mv configs/rgb_train_specs.json.tmp configs/rgb_train_specs.json
+latest_ckpt=$(ls ckpt_sgdf/ | head -n 1) && jq --arg ckpt "$latest_ckpt" '.EmbeddingCkptPath = $ckpt' configs/rgb_train_specs.json > configs/rgb_train_specs.json.tmp && mv configs/rgb_train_specs.json.tmp configs/rgb_train_specs.json
 
 export TMPDIR=$JOBSCRATCH
 #WANDB_MODE=offline 
