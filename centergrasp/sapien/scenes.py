@@ -56,18 +56,20 @@ class SceneImgRenderer:
     def _load_random_floor(self) -> None:
         if self.ground is not None:
             self.scene.remove_actor(self.ground)
-        material = sapien_utils.render_material_from_ambient_cg_texture(
-            self.renderer, np.random.choice(self.textures)
-        )
+        #material = sapien_utils.render_material_from_ambient_cg_texture(
+        #    self.renderer, np.random.choice(self.textures)
+        #)
+        material = sapien_utils.random_render_material(self.renderer)
         self.ground = self.scene.add_ground(altitude=-0.75, render_material=material)
         return
 
     def _load_random_table(self) -> None:
         if self.table is not None:
             self.scene.remove_actor(self.table)
-        material = sapien_utils.render_material_from_ambient_cg_texture(
-            self.renderer, np.random.choice(self.textures)
-        )
+        #material = sapien_utils.render_material_from_ambient_cg_texture(
+        #    self.renderer, np.random.choice(self.textures)
+        #)
+        material = sapien_utils.random_render_material(self.renderer)
         table_half_size = [
             np.random.uniform(0.2, 0.6),
             np.random.uniform(0.2, 0.6),

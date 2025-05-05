@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH -A uli@h100
+#SBATCH -A tya@h100
 #SBATCH -C h100
 #SBATCH --qos=qos_gpu_h100-dev
 #SBATCH --job-name=31_dev_gen_rgb # nom du job
