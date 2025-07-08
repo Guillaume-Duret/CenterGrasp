@@ -60,6 +60,7 @@ class SceneImgRenderer:
         #    self.renderer, np.random.choice(self.textures)
         #)
         material = sapien_utils.random_render_material(self.renderer)
+        print("material floor : ", material)
         self.ground = self.scene.add_ground(altitude=-0.75, render_material=material)
         return
 
@@ -70,6 +71,7 @@ class SceneImgRenderer:
         #    self.renderer, np.random.choice(self.textures)
         #)
         material = sapien_utils.random_render_material(self.renderer)
+        print("material table : ", material)
         table_half_size = [
             np.random.uniform(0.2, 0.6),
             np.random.uniform(0.2, 0.6),
@@ -87,7 +89,7 @@ class SceneImgRenderer:
     def _load_objs_random_material(self, objs: List[SceneObject]) -> List[sapien.Actor]:
         for obj in self.sapien_objs:
             self.scene.remove_actor(obj)
-        materials = [sapien_utils.random_render_material(self.renderer) for _ in objs]
+        materials = [None for _ in objs]
         sapien_objs = [
             sapien_utils.add_object_kinematic(self.scene, obj, material)
             for obj, material in zip(objs, materials)

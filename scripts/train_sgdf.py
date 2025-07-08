@@ -2,11 +2,12 @@ import os
 import tyro
 import random
 import numpy as np
+from typing import Optional  # <-- Add this import
 
 # pyright: reportGeneralTypeIssues=false
 
 
-def main(log_wandb: bool = False, gpu_num: int = 0, dataset: str = "giga"):
+def main(log_wandb: bool = False, gpu_num: int = 0, dataset: str = "giga", resume_ckpt: Optional[str] = None,):
     # Need to do this before importing torch
     os.environ["CUDA_VISIBLE_DEVICES"] = str(gpu_num)
     assert dataset in ["giga", "graspnet"]
@@ -80,6 +81,11 @@ def main(log_wandb: bool = False, gpu_num: int = 0, dataset: str = "giga"):
         logger.experiment.config.update(specs)
         logger.experiment.config.update(_config)
         logger.experiment.config.update({"dataset": dataset})
+    
+    # Resume checkpoint
+    resume_ckpt_path = (
+        Directories.ROOT / "ckpt_sgdf" / resume_ckpt if resume_ckpt is not None else None
+    )
 
     # Training
     trainer = pl.Trainer(
@@ -91,7 +97,7 @@ def main(log_wandb: bool = False, gpu_num: int = 0, dataset: str = "giga"):
         callbacks=callbacks,
     )
 
-    trainer.fit(model=lit_model, train_dataloaders=train_loader, val_dataloaders=valid_loader)
+    trainer.fit(model=lit_model, train_dataloaders=train_loader, val_dataloaders=valid_loader, ckpt_path=resume_ckpt_path,)
 
 
 tyro.cli(main)

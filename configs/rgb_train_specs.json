@@ -1,7 +1,7 @@
 {
   "CodeLength": 32,
   "NumEpochs": 300,
-  "EmbeddingCkptPath": "1zivznz4",
+  "EmbeddingCkptPath": "ui2a2sqa",
   "heatmap_loss_w": 100,
   "shape_loss_w": 1,
   "pose_loss_w": 5,

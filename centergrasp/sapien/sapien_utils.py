@@ -8,7 +8,7 @@ from sapien.utils.viewer import Viewer
 from centergrasp.cameras import CameraParams
 from centergrasp.mesh_utils import SceneObject, AmbientCGTexture
 from sapien.sensor import StereoDepthSensor, StereoDepthSensorConfig
-
+from pathlib import Path
 
 @dataclass
 class CameraObsConfig:
@@ -130,9 +130,12 @@ def add_table(
 ) -> sapien.Actor:
     builder = scene.create_actor_builder()
     builder.add_box_collision(half_size=half_size)
+    print("IN aDD table")
     if material is not None:
+        print("IN TABLE MATERIAL")
         builder.add_box_visual(half_size=half_size, material=material)
     else:
+        print("IN NO TABLE MATERIAL")
         builder.add_box_visual(half_size=half_size, color=color)
     table = builder.build_kinematic(name="table")
     table.set_pose(sapien.Pose(position))
@@ -178,11 +181,62 @@ def add_object_nonconvex(
     return actor
 
 
+def load_materials_from_mtl(renderer, mtl_path):
+    """Load materials from MTL file without _visual suffix"""
+    materials = {}
+    current_mtl = None
+    
+    try:
+        with open(mtl_path) as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith('#'):
+                    continue
+                    
+                parts = line.split()
+                key = parts[0].lower()
+                
+                if key == 'newmtl':
+                    current_mtl = renderer.create_material()
+                    materials[parts[1]] = current_mtl
+                elif current_mtl and key == 'map_kd':
+                    texture_path = mtl_path.parent / parts[1]
+                    if texture_path.exists():
+                        try:
+                            current_mtl.set_diffuse_texture_from_file(str(texture_path))
+                            print(f"Loaded texture: {texture_path.name}")
+                        except Exception as e:
+                            print(f"Failed to load texture {texture_path}: {str(e)}")
+    
+    except Exception as e:
+        print(f"Error loading MTL {mtl_path}: {str(e)}")
+    
+    return materials
 def add_object_kinematic(
     scene: sapien.Scene,
     obj: SceneObject,
     render_material: sapien.RenderMaterial = None,
 ) -> sapien.Actor:
+    print(f"Loading object: {obj.name}")
+    print(f"Visual file: {obj.visual_fpath}")
+    print(f"Using material: {'custom' if render_material else 'original'}")
+    # Use original materials if availablle
+
+    obj_path = Path(obj.visual_fpath)
+    # Get base name without _visual
+    base_name = obj_path.stem.replace('_visual', '')
+    mtl_path = obj_path.with_name(f"{base_name}.mtl")
+    
+    if mtl_path.exists() and render_material is None:
+        try:
+            materials = load_materials_from_mtl(scene.engine.renderer, mtl_path)
+            if materials:
+                render_material = next(iter(materials.values()))
+                # Debug print (safe version)
+                print(f"Loaded material for {obj.name}")
+        except Exception as e:
+            print(f"Error loading materials for {obj.name}: {str(e)}")
+
     builder = _get_object_builder(scene, obj, render_material)
     actor = builder.build_kinematic(name=obj.name)
     actor.set_pose(sapien.Pose.from_transformation_matrix(obj.pose4x4))

@@ -1,13 +1,14 @@
 #!/bin/bash
 
-#SBATCH -A uli@a100
+#SBATCH -A tya@a100
 #SBATCH -C a100
 #SBATCH --job-name=5_dev_a100_train_rgbd # nom du job
 #SBATCH --qos=qos_gpu_a100-dev
-#SBATCH --ntasks=1 # nbr de tache MPI (= nbr de GPU)
+#SBATCH --nodes=1
+#SBATCH --ntasks=8 # nbr de tache MPI (= nbr de GPU)
 #SBATCH --ntasks-per-node=8
 #SBATCH --gres=gpu:8 # nbr de GPU par nœud
-#SBATCH --cpus-per-task=6 # nbr de CPU par tache
+#SBATCH --cpus-per-task=8 # nbr de CPU par tache
 #SBATCH --hint=nomultithread # pas de hyperthreading
 #SBATCH --time=2:00:00 # temps d'execution max
 #SBATCH --output=log/5_dev_a100_train_rgbd%j.out # fichier sortie
