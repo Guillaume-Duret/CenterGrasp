@@ -11,7 +11,7 @@
         "weight_norm": true
     },
     "CodeLength": 32,
-    "NumEpochs": 100,
+    "NumEpochs": 200,
     "ckpt_every_n_epochs": 5,
     "LearningRateSchedule": [
         {
